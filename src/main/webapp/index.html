@@ -13,15 +13,19 @@
   <!-- Navigation -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" ui-sref="home">Apollo Cinema</a>
-      <input type="text" name="search" placeholder="Search..">
+
+      <a class="navbar-brand" ui-sref="home">
+        <img src="assets/img/logo.png" style="width:50px;height:50px;">
+        Apollo Cinema
+      </a>
+      <input id = "searchbox" type="text" name="search" placeholder="Search..">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" ui-sref="">Home</a>
+            <a class="nav-link" ui-sref="home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" ui-sref="">Movie List</a>
@@ -78,7 +82,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; QAC Cinema's Ltd 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Apollo Cinema Ltd 2017</p>
       </div>
       <!-- /.container -->
     </footer>
