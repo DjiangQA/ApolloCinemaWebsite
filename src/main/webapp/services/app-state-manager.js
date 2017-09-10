@@ -19,6 +19,19 @@
         }).state("movielist", {
             url:"/movielist",
             templateUrl:"app/feature/movielist/movieListing.html"
+
+        }).state("login", {
+            url:"/login",
+            templateUrl:"app/feature/login/login.html"
+
+        }).state("register", {
+            url:"/register",
+            templateUrl:"app/feature/register/register.html"
+
+        }).state("movieinfo", {
+            url:"/movieinfo",
+            templateUrl:"app/feature/movieinfo/movieinfo.html"
+
         })
     });
 }());

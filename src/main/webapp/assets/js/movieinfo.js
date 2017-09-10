@@ -1,22 +1,22 @@
-let impMovieName = "TestName";
-let impMovieDescription = "TestDes";
-let impMovieReleaseDate = "TestRel";
-let impMovieLanguage = "en";
-let impMoviepopularity = "1";
-let impMovieBackDrop;
-let impMoviePoster;
+var impMovieName = "TestName";
+var impMovieDescription = "TestDes";
+var impMovieReleaseDate = "TestRel";
+var impMovieLanguage = "en";
+var impMoviepopularity = "1";
+var impMovieBackDrop;
+var impMoviePoster;
 
 
-let movieList = [];
+var movieList = [];
 
-let movie = movieMaker(impMovieName, impMovieDescription, impMovieReleaseDate, impMovieLanguage, impMoviepopularity);
-let returnmovie;
+var movie = movieMaker(impMovieName, impMovieDescription, impMovieReleaseDate, impMovieLanguage, impMoviepopularity);
+var returnmovie;
 
 
 
 function movieMaker(movieName, movieDescription, movieReleaseDate, movieLanguage, moviepopularity) {
 
-    let movie = {
+    var movie = {
         MovieName: movieName,
         MovieDescription: movieDescription,
         MovieReleaseDate: movieReleaseDate,
@@ -26,10 +26,10 @@ function movieMaker(movieName, movieDescription, movieReleaseDate, movieLanguage
     return movie;
 }
 
-
-
-let paragraph = document.createElement("p");
-let text = document.createTextNode(movie.MovieName);
+var para = document.createElement("p");
+var text = document.createTextNode(movie.MovieName);
+para.appendChild(text);
+document.getElementById("latestfilms1").appendChild(para);
 
 //paragraph.appendChild(text);
 //let printMovieInfo = document.getElementById("nowshowingsubheading")
