@@ -15,6 +15,10 @@
         }).state("contact", {
             url:"/contact",
             templateUrl:"app/feature/contact/contact.html"
+
+        }).state("movielist", {
+            url:"/movielist",
+            templateUrl:"app/feature/movielist/movieListing.html"
         })
     });
 }());

@@ -28,7 +28,7 @@
             <a class="nav-link" ui-sref="home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" ui-sref="">Movie List</a>
+            <a class="nav-link" ui-sref="movielist">Movie List</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" ui-sref="about">About</a>
@@ -55,11 +55,13 @@
 
   <!-- Bootstrap core CSS -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
   <!-- Custom styles for this template -->
   <link href="assets/css/modern-business.css" rel="stylesheet">
   <link href="assets/css/searchbox.css" rel="stylesheet">
-
+  <link href="assets/css/socialMediaIcons.css" rel="stylesheet">
 
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/popper/popper.min.js"></script>
@@ -73,14 +75,18 @@
   <script src="app/feature/about/aboutController.js"></script>
   <script src="app/feature/contact/contactController.js"></script>
   <script src="app/feature/404/404Controller.js"></script>
-
-
+  <script src="app/feature/movielist/movieListingController.js"></script>
 
   <div>
     <!-- /.container -->
     </div>
     <!-- Footer -->
     <footer class="py-5 bg-dark">
+      <div class = "container text-center align-content-center">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+      </div>
       <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; Apollo Cinema Ltd 2017</p>
       </div>
